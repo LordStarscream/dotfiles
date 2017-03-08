@@ -1,0 +1,824 @@
+# Diese viminfo-Datei wurde von Vim 8.0 generiert.
+# Sie können sie verändern, wenn Sie vorsichtig vorgehen!
+
+# Viminfo version
+|1,4
+
+# Wert von 'encoding', als diese Datei geschrieben wurde
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Letztes Suchmuster:
+~MSle0~/ci
+
+# Befehlszeile Geschichte (neueste bis älteste):
+:x
+|2,0,1488800923,,"x"
+:q!
+|2,0,1488800909,,"q!"
+:tabo!
+|2,0,1488800903,,"tabo!"
+:tabonly
+|2,0,1488800896,,"tabonly"
+:help tabs
+|2,0,1488800792,,"help tabs"
+:help tab
+|2,0,1488800769,,"help tab"
+:tabone
+|2,0,1488800766,,"tabone"
+:close all
+|2,0,1488800762,,"close all"
+:e ~/.vimrc
+|2,0,1488799008,,"e ~/.vimrc"
+:q
+|2,0,1488796839,,"q"
+:bn
+|2,0,1488796834,,"bn"
+:ls
+|2,0,1488796684,,"ls"
+:tabmove 2
+|2,0,1488790355,,"tabmove 2"
+:tabmove 1
+|2,0,1488790347,,"tabmove 1"
+:tabmove 0
+|2,0,1488790332,,"tabmove 0"
+:tabmove
+|2,0,1488790321,,"tabmove"
+:vertical resitze 30
+|2,0,1488790146,,"vertical resitze 30"
+:res 60
+|2,0,1488790026,,"res 60"
+:res +5
+|2,0,1488790003,,"res +5"
+:pwd
+|2,0,1488789932,,"pwd"
+:cmd
+|2,0,1488789901,,"cmd"
+:NERDTree
+|2,0,1488789833,,"NERDTree"
+:tabedit %
+|2,0,1488458097,,"tabedit %"
+:nb
+|2,0,1488458060,,"nb"
+:tabedit %<CR> 
+|2,0,1488458018,,"tabedit %<CR> "
+:w
+|2,0,1488396311,,"w"
+:NERDtree
+|2,0,1488396498,,"NERDtree"
+:open geConfig.py
+|2,0,1488396390,,"open geConfig.py"
+:help ^n
+|2,0,1488394524,,"help ^n"
+:wq
+|2,0,1488394841,,"wq"
+:set off nu
+|2,0,1488361227,,"set off nu"
+:set nu off
+|2,0,1488361223,,"set nu off"
+:set rnu
+|2,0,1488361211,,"set rnu"
+:set nu
+|2,0,1488361208,,"set nu"
+:unset rnu
+|2,0,1488361204,,"unset rnu"
+:set relativenumber
+|2,0,1488361148,,"set relativenumber"
+:set number
+|2,0,1488361136,,"set number"
+:PluginInstall
+|2,0,1488193281,,"PluginInstall"
+:nerdtree
+|2,0,1488193127,,"nerdtree"
+:set rln
+|2,0,1488192311,,"set rln"
+:set rnum
+|2,0,1488192305,,"set rnum"
+:retab
+|2,0,1488180459,,"retab"
+:help ci
+|2,0,1488110468,,"help ci"
+:help ci(
+|2,0,1488110462,,"help ci("
+:ci(
+|2,0,1488110404,,"ci("
+:ci)
+|2,0,1488109930,,"ci)"
+:helpgrep relative
+|2,0,1488109560,,"helpgrep relative"
+:help relative line
+|2,0,1488109551,,"help relative line"
+:help line
+|2,0,1488109481,,"help line"
+:help relative number
+|2,0,1488109476,,"help relative number"
+:setrelnum
+|2,0,1488109171,,"setrelnum"
+:set relninum
+|2,0,1488109166,,"set relninum"
+:set relnum
+|2,0,1488109136,,"set relnum"
+:unset ruler
+|2,0,1488109117,,"unset ruler"
+:set ruler
+|2,0,1488109107,,"set ruler"
+:python
+|2,0,0,,"python"
+:w!
+|2,0,0,,"w!"
+
+# Suchausdruck Geschichte (neueste bis älteste):
+?/ci
+|2,1,1488110548,47,"ci"
+? \<This\>
+|2,1,1488110536,,"\\<This\\>"
+?/ci 
+|2,1,1488110517,47,"ci "
+?/Python
+|2,1,0,47,"Python"
+?/python
+|2,1,0,47,"python"
+
+# Ausdruck Geschichte (neueste bis älteste):
+
+# Eingabe-Zeile Geschichte (neueste bis älteste):
+
+# Debug Line Geschichte (neueste bis älteste):
+
+# Register:
+"0	LINE	0
+	"Vim Plugin Manager vundle
+|3,0,0,1,1,0,1488192566,"\"Vim Plugin Manager vundle"
+"1	LINE	0
+	import os
+|3,0,1,1,1,0,1488395153,"import os"
+"2	LINE	0
+	
+|3,0,2,1,1,0,1488362712,""
+"3	LINE	0
+	:au FocusGained * :set relativenumber
+|3,0,3,1,1,0,1488361491,":au FocusGained * :set relativenumber"
+"4	LINE	0
+	
+|3,0,4,1,1,0,1488192677,""
+"5	LINE	0
+	" The following are examples of different formats supported.
+	" Keep Plugin commands between vundle#begin/end.
+	" plugin on GitHub repo
+	Plugin 'tpope/vim-fugitive'
+	" plugin from http://vim-scripts.org/vim/scripts.html
+	Plugin 'L9'
+	" Git plugin not hosted on GitHub
+	Plugin 'git://git.wincent.com/command-t.git'
+	" git repos on your local machine (i.e. when working on your own plugin)
+	Plugin 'file:///home/gmarik/path/to/plugin'
+	" The sparkup vim script is in a subdirectory of this repo called vim.
+	" Pass the path to set the runtimepath properly.
+	Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+	" Install L9 and avoid a Naming conflict if you've already installed a
+	" different version somewhere else.
+	Plugin 'ascenator/L9', {'name': 'newL9'}
+|3,0,5,1,16,0,1488192672,"\" The following are examples of different formats supported.","\" Keep Plugin commands between vundle#begin/end.","\" plugin on GitHub repo","Plugin 'tpope/vim-fugitive'","\" plugin from http://vim-scripts.org/vim/scripts.html","Plugin 'L9'","\" Git plugin not hosted on GitHub","Plugin 'git://git.wincent.com/command-t.git'","\" git repos on your local machine (i.e. when working on your own plugin)",>45
+|<"Plugin 'file:///home/gmarik/path/to/plugin'","\" The sparkup vim script is in a subdirectory of this repo called vim.","\" Pass the path to set the runtimepath properly.","Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}","\" Install L9 and avoid a Naming conflict if you've already installed a","\" different version somewhere else.","Plugin 'ascenator/L9', {'name': 'newL9'}"
+"6	LINE	0
+	"Vim Plugin Manager vundle
+	set nocompatible
+	filetype off
+	
+	set rtp+=~/.vim/bundle/Vundle.vim
+	call vundle#begin()
+	"let Vundle mange Vundle
+	Plugin 'VundleVim/Vundle.vim'
+	call vundle#end()
+	filetype plugin indent on
+	" To ignore plugin indent changes, instead use:
+	"filetype plugin on
+	"
+	" Brief help
+	" :PluginList       - lists configured plugins
+	" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+	" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+	" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+	"
+	" see :h vundle for more details or wiki for FAQ
+	" Put your non-Plugin stuff after this line
+|3,0,6,1,21,0,1488192591,"\"Vim Plugin Manager vundle","set nocompatible","filetype off","","set rtp+=~/.vim/bundle/Vundle.vim","call vundle#begin()","\"let Vundle mange Vundle","Plugin 'VundleVim/Vundle.vim'","call vundle#end()","filetype plugin indent on","\" To ignore plugin indent changes, instead use:","\"filetype plugin on","\"","\" Brief help","\" :PluginList       - lists configured plugins",>85
+|<"\" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate","\" :PluginSearch foo - searches for foo; append `!` to refresh local cache","\" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal","\"","\" see :h vundle for more details or wiki for FAQ","\" Put your non-Plugin stuff after this line"
+"7	CHAR	0
+	:
+	     
+|3,0,7,0,2,0,1488131733,":","     "
+"8	CHAR	0
+	:
+	        
+|3,0,8,0,2,0,1488131720,":","        "
+"9	LINE	0
+	        if ():
+|3,0,9,1,1,0,1488131532,"        if ():"
+""-	CHAR	0
+	x
+|3,1,36,0,1,0,1488800918,"x"
+
+# Datei-Marken:
+'0  1  1  ~/Projects/homeOrder/todo
+|4,48,1,1,1488800923,"~/Projects/homeOrder/todo"
+'1  25  30  ~/Projects/homeOrder/getConfig.py
+|4,49,25,30,1488458403,"~/Projects/homeOrder/getConfig.py"
+'2  25  30  ~/Projects/homeOrder/getConfig.py
+|4,50,25,30,1488458403,"~/Projects/homeOrder/getConfig.py"
+'3  24  0  ~/Projects/homeOrder/da.py
+|4,51,24,0,1488458196,"~/Projects/homeOrder/da.py"
+'4  24  0  ~/Projects/homeOrder/da.py
+|4,52,24,0,1488458196,"~/Projects/homeOrder/da.py"
+'5  24  0  ~/Projects/homeOrder/da.py
+|4,53,24,0,1488458196,"~/Projects/homeOrder/da.py"
+'6  24  0  ~/Projects/homeOrder/da.py
+|4,54,24,0,1488458196,"~/Projects/homeOrder/da.py"
+'7  1  0  ~/Projects/homeOrder/todoCR>
+|4,55,1,0,1488458188,"~/Projects/homeOrder/todoCR>"
+'8  1  2  ~/Projects/homeOrder/NERD_tree_1
+|4,56,1,2,1488451595,"~/Projects/homeOrder/NERD_tree_1"
+'9  5  2  ~/Projects/homeOrder/NERD_tree_1
+|4,57,5,2,1488451595,"~/Projects/homeOrder/NERD_tree_1"
+
+# Geschichte (neueste zuerst):
+-'  1  1  ~/Projects/homeOrder/todo
+|4,39,1,1,1488800923,"~/Projects/homeOrder/todo"
+-'  40  0  ~/Projects/homeOrder/todo
+|4,39,40,0,1488800914,"~/Projects/homeOrder/todo"
+-'  25  30  ~/Projects/homeOrder/getConfig.py
+|4,39,25,30,1488800909,"~/Projects/homeOrder/getConfig.py"
+-'  1  0  ~/Projects/homeOrder/getConfig.py
+|4,39,1,0,1488796617,"~/Projects/homeOrder/getConfig.py"
+-'  1  6  ~/Projects/homeOrder/NERD_tree_2
+|4,39,1,6,1488796617,"~/Projects/homeOrder/NERD_tree_2"
+-'  24  0  ~/Projects/homeOrder/da.py
+|4,39,24,0,1488789833,"~/Projects/homeOrder/da.py"
+-'  7  0  ~/Projects/homeOrder/NERD_tree_1
+|4,39,7,0,1488789827,"~/Projects/homeOrder/NERD_tree_1"
+-'  1  0  ~/Projects/homeOrder/NERD_tree_1
+|4,39,1,0,1488789819,"~/Projects/homeOrder/NERD_tree_1"
+-'  9  2  ~/Projects/homeOrder/NERD_tree_1
+|4,39,9,2,1488789819,"~/Projects/homeOrder/NERD_tree_1"
+-'  25  30  ~/Projects/homeOrder/getConfig.py
+|4,39,25,30,1488458403,"~/Projects/homeOrder/getConfig.py"
+-'  25  30  ~/Projects/homeOrder/getConfig.py
+|4,39,25,30,1488458403,"~/Projects/homeOrder/getConfig.py"
+-'  18  18  ~/Projects/homeOrder/todo
+|4,39,18,18,1488458226,"~/Projects/homeOrder/todo"
+-'  18  18  ~/Projects/homeOrder/todo
+|4,39,18,18,1488458226,"~/Projects/homeOrder/todo"
+-'  18  18  ~/Projects/homeOrder/todo
+|4,39,18,18,1488458226,"~/Projects/homeOrder/todo"
+-'  8  0  ~/Projects/homeOrder/config
+|4,39,8,0,1488458224,"~/Projects/homeOrder/config"
+-'  8  0  ~/Projects/homeOrder/config
+|4,39,8,0,1488458224,"~/Projects/homeOrder/config"
+-'  8  0  ~/Projects/homeOrder/config
+|4,39,8,0,1488458224,"~/Projects/homeOrder/config"
+-'  24  0  ~/Projects/homeOrder/da.py
+|4,39,24,0,1488458223,"~/Projects/homeOrder/da.py"
+-'  24  0  ~/Projects/homeOrder/da.py
+|4,39,24,0,1488458223,"~/Projects/homeOrder/da.py"
+-'  24  0  ~/Projects/homeOrder/da.py
+|4,39,24,0,1488458196,"~/Projects/homeOrder/da.py"
+-'  24  0  ~/Projects/homeOrder/da.py
+|4,39,24,0,1488458196,"~/Projects/homeOrder/da.py"
+-'  1  0  ~/Projects/homeOrder/todoCR>
+|4,39,1,0,1488458188,"~/Projects/homeOrder/todoCR>"
+-'  1  0  ~/Projects/homeOrder/todoCR>
+|4,39,1,0,1488458188,"~/Projects/homeOrder/todoCR>"
+-'  1  0  ~/Projects/homeOrder/todoCR>
+|4,39,1,0,1488458188,"~/Projects/homeOrder/todoCR>"
+-'  1  0  ~/Projects/homeOrder/todoCR>
+|4,39,1,0,1488458188,"~/Projects/homeOrder/todoCR>"
+-'  1  0  ~/Projects/homeOrder/todoCR>
+|4,39,1,0,1488458188,"~/Projects/homeOrder/todoCR>"
+-'  1  0  ~/Projects/homeOrder/todoCR>
+|4,39,1,0,1488458188,"~/Projects/homeOrder/todoCR>"
+-'  1  0  ~/Projects/homeOrder/todoCR>
+|4,39,1,0,1488458188,"~/Projects/homeOrder/todoCR>"
+-'  1  0  ~/Projects/homeOrder/todoCR>
+|4,39,1,0,1488458188,"~/Projects/homeOrder/todoCR>"
+-'  1  0  ~/Projects/homeOrder/todoCR>
+|4,39,1,0,1488458188,"~/Projects/homeOrder/todoCR>"
+-'  1  0  ~/Projects/homeOrder/todoCR>
+|4,39,1,0,1488458188,"~/Projects/homeOrder/todoCR>"
+-'  1  0  ~/Projects/homeOrder/todoCR>
+|4,39,1,0,1488458188,"~/Projects/homeOrder/todoCR>"
+-'  1  0  ~/Projects/homeOrder/todoCR>
+|4,39,1,0,1488458188,"~/Projects/homeOrder/todoCR>"
+-'  25  30  ~/Projects/homeOrder/getConfig.py
+|4,39,25,30,1488458185,"~/Projects/homeOrder/getConfig.py"
+-'  25  30  ~/Projects/homeOrder/getConfig.py
+|4,39,25,30,1488458185,"~/Projects/homeOrder/getConfig.py"
+-'  25  30  ~/Projects/homeOrder/getConfig.py
+|4,39,25,30,1488458185,"~/Projects/homeOrder/getConfig.py"
+-'  25  30  ~/Projects/homeOrder/getConfig.py
+|4,39,25,30,1488458185,"~/Projects/homeOrder/getConfig.py"
+-'  18  18  ~/Projects/homeOrder/todo
+|4,39,18,18,1488458182,"~/Projects/homeOrder/todo"
+-'  18  18  ~/Projects/homeOrder/todo
+|4,39,18,18,1488458182,"~/Projects/homeOrder/todo"
+-'  18  18  ~/Projects/homeOrder/todo
+|4,39,18,18,1488458182,"~/Projects/homeOrder/todo"
+-'  18  18  ~/Projects/homeOrder/todo
+|4,39,18,18,1488458182,"~/Projects/homeOrder/todo"
+-'  8  0  ~/Projects/homeOrder/NERD_tree_1
+|4,39,8,0,1488458177,"~/Projects/homeOrder/NERD_tree_1"
+-'  8  0  ~/Projects/homeOrder/NERD_tree_1
+|4,39,8,0,1488458177,"~/Projects/homeOrder/NERD_tree_1"
+-'  8  0  ~/Projects/homeOrder/NERD_tree_1
+|4,39,8,0,1488458177,"~/Projects/homeOrder/NERD_tree_1"
+-'  8  0  ~/Projects/homeOrder/NERD_tree_1
+|4,39,8,0,1488458177,"~/Projects/homeOrder/NERD_tree_1"
+-'  8  2  ~/Projects/homeOrder/NERD_tree_1
+|4,39,8,2,1488458152,"~/Projects/homeOrder/NERD_tree_1"
+-'  9  2  ~/Projects/homeOrder/NERD_tree_1
+|4,39,9,2,1488458152,"~/Projects/homeOrder/NERD_tree_1"
+-'  1  0  ~/Projects/homeOrder/NERD_tree_1
+|4,39,1,0,1488458152,"~/Projects/homeOrder/NERD_tree_1"
+-'  9  2  ~/Projects/homeOrder/NERD_tree_1
+|4,39,9,2,1488458152,"~/Projects/homeOrder/NERD_tree_1"
+-'  1  0  ~/Projects/homeOrder/NERD_tree_1
+|4,39,1,0,1488458152,"~/Projects/homeOrder/NERD_tree_1"
+-'  9  2  ~/Projects/homeOrder/NERD_tree_1
+|4,39,9,2,1488458152,"~/Projects/homeOrder/NERD_tree_1"
+-'  1  0  ~/Projects/homeOrder/NERD_tree_1
+|4,39,1,0,1488458152,"~/Projects/homeOrder/NERD_tree_1"
+-'  9  2  ~/Projects/homeOrder/NERD_tree_1
+|4,39,9,2,1488458152,"~/Projects/homeOrder/NERD_tree_1"
+-'  1  0  ~/Projects/homeOrder/NERD_tree_1
+|4,39,1,0,1488458152,"~/Projects/homeOrder/NERD_tree_1"
+-'  24  0  ~/Projects/homeOrder/da.py
+|4,39,24,0,1488451658,"~/Projects/homeOrder/da.py"
+-'  24  0  ~/Projects/homeOrder/da.py
+|4,39,24,0,1488451658,"~/Projects/homeOrder/da.py"
+-'  5  2  ~/Projects/homeOrder/NERD_tree_1
+|4,39,5,2,1488451595,"~/Projects/homeOrder/NERD_tree_1"
+-'  6  2  ~/Projects/homeOrder/NERD_tree_1
+|4,39,6,2,1488451595,"~/Projects/homeOrder/NERD_tree_1"
+-'  6  2  ~/Projects/homeOrder/NERD_tree_1
+|4,39,6,2,1488451595,"~/Projects/homeOrder/NERD_tree_1"
+-'  6  2  ~/Projects/homeOrder/NERD_tree_1
+|4,39,6,2,1488451595,"~/Projects/homeOrder/NERD_tree_1"
+-'  6  2  ~/Projects/homeOrder/NERD_tree_1
+|4,39,6,2,1488451595,"~/Projects/homeOrder/NERD_tree_1"
+-'  9  2  ~/Projects/homeOrder/NERD_tree_1
+|4,39,9,2,1488451585,"~/Projects/homeOrder/NERD_tree_1"
+-'  1  2  ~/Projects/homeOrder/NERD_tree_1
+|4,39,1,2,1488451585,"~/Projects/homeOrder/NERD_tree_1"
+-'  9  2  ~/Projects/homeOrder/NERD_tree_1
+|4,39,9,2,1488451585,"~/Projects/homeOrder/NERD_tree_1"
+-'  1  2  ~/Projects/homeOrder/NERD_tree_1
+|4,39,1,2,1488451585,"~/Projects/homeOrder/NERD_tree_1"
+-'  9  2  ~/Projects/homeOrder/NERD_tree_1
+|4,39,9,2,1488451585,"~/Projects/homeOrder/NERD_tree_1"
+-'  1  2  ~/Projects/homeOrder/NERD_tree_1
+|4,39,1,2,1488451585,"~/Projects/homeOrder/NERD_tree_1"
+-'  9  2  ~/Projects/homeOrder/NERD_tree_1
+|4,39,9,2,1488451585,"~/Projects/homeOrder/NERD_tree_1"
+-'  1  2  ~/Projects/homeOrder/NERD_tree_1
+|4,39,1,2,1488451585,"~/Projects/homeOrder/NERD_tree_1"
+-'  24  0  ~/Projects/homeOrder/da.py
+|4,39,24,0,1488451534,"~/Projects/homeOrder/da.py"
+-'  24  0  ~/Projects/homeOrder/da.py
+|4,39,24,0,1488451534,"~/Projects/homeOrder/da.py"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+-'  69  8  ~/.vimrc
+|4,39,69,8,1488443220,"~/.vimrc"
+
+# Geschichte der Markierungen innerhalb von Dateien (neueste zuerst):
+
+> ~/Projects/homeOrder/todo
+	*	1488800922	0
+	"	1	1
+	^	1	0
+	.	1	0
+	+	17	6
+	+	18	18
+	+	20	43
+	+	21	71
+	+	20	12
+	+	1	0
+
+> ~/Projects/homeOrder/getConfig.py
+	*	1488800908	0
+	"	25	30
+	.	29	0
+	+	45	3
+	+	41	12
+	+	45	37
+	+	45	14
+	+	45	5
+	+	45	22
+	+	45	10
+	+	45	34
+	+	45	37
+	+	45	14
+	+	41	51
+	+	45	8
+	+	45	56
+	+	45	14
+	+	45	16
+	+	41	28
+	+	45	0
+	+	61	0
+	+	45	0
+	+	53	0
+	+	45	0
+	+	43	0
+	+	55	35
+	+	57	20
+	+	56	11
+	+	58	8
+	+	57	37
+	+	57	20
+	+	58	0
+	+	56	3
+	+	56	4
+	+	57	0
+	+	45	27
+	+	70	36
+	+	70	35
+	+	70	0
+	+	62	23
+	+	62	61
+	+	70	21
+	+	70	34
+	+	62	23
+	+	63	0
+	+	62	22
+	+	56	13
+	+	58	22
+	+	56	11
+	+	56	0
+	+	55	35
+	+	56	11
+	+	57	18
+	+	56	9
+	+	58	8
+	+	70	21
+	+	66	0
+	+	64	7
+	+	66	0
+	+	49	0
+	+	26	0
+	+	29	0
+
+> /usr/share/vim/vim80/doc/tabpage.txt
+	*	1488800906	0
+	"	126	25
+
+> /usr/share/vim/vim80/doc/intro.txt
+	*	1488800786	0
+	"	458	32
+
+> ~/Projects/homeOrder/NERD_tree_2
+	*	1488800755	0
+	"	7	7
+	.	1	0
+	+	1	0
+
+> ~/.vimrc
+	*	1488800753	0
+	"	71	0
+	^	71	0
+	.	70	0
+	+	33	10
+	+	31	0
+	+	1	16
+	+	1	53
+	+	30	42
+	+	12	0
+	+	13	28
+	+	15	34
+	+	33	11
+	+	48	36
+	+	44	38
+	+	36	24
+	+	33	0
+	+	36	18
+	+	38	27
+	+	41	20
+	+	44	0
+	+	37	27
+	+	40	35
+	+	44	0
+	+	47	40
+	+	48	0
+	+	46	46
+	+	47	39
+	+	46	43
+	+	47	35
+	+	12	0
+	+	44	12
+	+	57	0
+	+	58	15
+	+	61	17
+	+	63	0
+	+	58	0
+	+	63	0
+	+	67	75
+	+	69	8
+	+	67	56
+	+	69	0
+	+	70	0
+	i	36	12
+
+> ~/Projects/homeOrder/da.py
+	*	1488796838	0
+	"	32	0
+	^	31	0
+	.	32	0
+	+	21	0
+	+	19	22
+	+	19	0
+	+	14	0
+	+	20	0
+	+	21	0
+	+	1	0
+	+	19	0
+	+	30	0
+	+	23	0
+	+	30	0
+	+	36	0
+	+	1	0
+	+	17	0
+	+	1	0
+	+	32	0
+	j	12	0
+	m	15	0
+	n	12	0
+
+> ~/Projects/homeOrder/config
+	*	1488796795	0
+	"	8	5
+
+> ~/Projects/homeOrder/NERD_tree_1
+	*	1488789823	0
+	"	7	0
+	.	1	0
+	+	1	0
+
+> ~/Projects/homeOrder/todoCR>
+	*	1488458187	0
+	"	1	0
+
+> ~/Projects/homeOrder/geConfig.py
+	*	1488396395	0
+	"	1	0
+
+> /usr/share/vim/vim80/doc/motion.txt
+	*	1488394558	0
+	"	293	20
+
+> ~/[Vundle] Installer
+	*	1488195067	0
+	"	6	0
+	.	1	0
+	+	41	0
+	+	36	0
+	+	31	0
+	+	26	0
+	+	21	0
+	+	16	0
+	+	11	0
+	+	6	0
+	+	1	0
+
+> /usr/share/vim/vim80/doc/options.txt
+	*	1488110557	0
+	"	6241	48
+	^	6241	49
+
+> ~/.viminfo
+	*	1488109821	0
+	"	124	0
+
+> /usr/share/vim/vim80/doc/arabic.txt
+	*	1488109594	0
+	"	29	52
+
+> /usr/share/vim/vim80/doc/eval.txt
+	*	1488109501	0
+	"	6180	11
+
+> ~/.git-prompt.sh
+	*	1482353167	0
+	"	127	0
+
+> ~/.gitconfig
+	*	1482353150	0
+	"	1	0
+
+> ~/Projects/homeOrder/.git/COMMIT_EDITMSG
+	*	1482063170	0
+	"	1	52
+	^	1	53
+	.	1	52
+	+	1	52
+
+> ~/.config/homeOrder/config
+	*	1481978131	0
+	"	9	11
+	^	9	12
+	.	9	11
+	+	8	8
+	+	5	0
+	+	4	0
+	+	3	18
+	+	14	13
+	+	15	20
+	+	9	11
+
+> ~/.bashrc
+	*	1481285580	0
+	"	18	49
+	^	18	50
+	.	18	49
+	+	13	23
+	+	15	21
+	+	18	2
+	+	17	1
+	+	15	21
+	+	18	49
+
+> ~/MyNewProject/Config.json
+	*	1479389752	0
+	"	37	0
+
+> ~/MyProject/Config.json
+	"	93	0
+
+> ~/MyProject/artifacts/requirements.log
+	"	56	0
+
+> ~/MyProject/artifacts/stats_reqs_cnt.eps
+	"	37	0
+
+> ~/MyProject/artifacts/stats_reqs_cnt.csv
+	"	1	0
+
+> ~/MyProject/artifacts/stats_sprint_burndown.csv
+	"	213	0
+
+> ~/MyProject/artifacts/req-graph1.dot
+	"	1	0
+
+> ~/MyProject/topics/ReqsDocument.tic
+	"	1	0
+
+> ~/MyProject/latex/requirements.tex
+	"	77	0
+
+> ~/MyProject/Makefile
+	"	62	0
+
+> ~/MyProject/setenv.sh
+	"	31	0
+
+> ~/MyProject/topics/WhatsAbout.tic
+	"	1	0
+
+> /usr/share/rmtoo/bin/rmtoo-pricing-graph
+	"	1	21
+	^	1	22
+	.	1	21
+	+	1	21
+
+> /usr/share/rmtoo/bin/rmtoo-normalize-dependencies
+	"	1	21
+	^	1	22
+	.	1	21
+	+	1	21
+
+> /usr/share/rmtoo/bin/rmtoo-configuration-convert
+	"	1	21
+	^	1	22
+	.	1	21
+	+	1	21
+
+> /usr/share/rmtoo/bin/rmtoo
+	"	1	21
+	^	1	22
+	.	1	21
+	+	1	21
+
+> ~/MyNewProject/Makefile
+	"	66	0
+	^	82	10
+	.	63	16
+	+	63	16
+
+> /usr/share/rmtoo/setup.py
+	"	1	21
+	^	1	22
+	.	1	21
+	+	1	21
+
+> ~/MyNewProject/setenv.sh
+	"	1	0
+	^	31	0
+	.	22	38
+	+	22	38
+
+> ~/MyNewProject/bin/rmtoo-pricing-graph
+	"	1	21
+	^	1	22
+	.	1	21
+	+	1	21
+
+> ~/MyNewProject/bin/rmtoo-normalize-dependencies
+	"	1	21
+	^	1	22
+	.	1	21
+	+	1	21
+
+> ~/MyNewProject/bin/rmtoo-configuration-convert
+	"	1	21
+	^	1	22
+	.	1	21
+	+	1	21
+
+> ~/MyNewProject/bin/rmtoo
+	"	1	21
+	^	1	22
+	.	1	21
+	+	1	21
+
+> ~/MyNewProject/setup.py
+	"	1	21
+	^	1	22
+	.	1	21
+	+	1	21
+
+> ~/MyNewProject/requirements/req1.req
+	"	1	0
+
+> ~/MyNewProject/requirements/project.req
+	"	1	0
+
+> ~/MyNewProject/Readme.txt
+	"	1	0
+
+> ~/.xinitrc
+	"	8	14
+	^	8	15
+	.	8	15
+	+	8	15
